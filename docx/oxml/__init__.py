@@ -157,13 +157,14 @@ register_element_cls('w:spacing',         CT_Spacing)
 register_element_cls('w:widowControl',    CT_OnOff)
 
 from .text.run import (
-    CT_Br, CT_Fonts, CT_HpsMeasure, CT_R, CT_RPr, CT_Text, CT_Underline,
-    CT_VerticalAlignRun
+    CT_Br, CT_Color, CT_Fonts, CT_HpsMeasure, CT_R, CT_RPr, CT_Text,
+    CT_Underline, CT_VerticalAlignRun
 )
 register_element_cls('w:b',          CT_OnOff)
 register_element_cls('w:bCs',        CT_OnOff)
 register_element_cls('w:br',         CT_Br)
 register_element_cls('w:caps',       CT_OnOff)
+register_element_cls('w:color',      CT_Color)
 register_element_cls('w:cs',         CT_OnOff)
 register_element_cls('w:dstrike',    CT_OnOff)
 register_element_cls('w:emboss',     CT_OnOff)
